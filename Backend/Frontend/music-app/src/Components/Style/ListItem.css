@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap');
+
+
+.ListItem {
+    position: relative;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    filter: grayscale(100%);
+    transition: filter 0.3s linear;
+    user-select: none;
+
+}
+
+.ListItem:hover {
+    filter: none;
+    transition: filter 0.1s linear;
+}
+
+.CoverImg {
+    width: 100%;
+}
+
+.InfoContainer {
+    height: 60px;
+    margin-top: 30px;
+    background-color: #282828be;
+    box-shadow: 0 0 10px 10px #282828be;
+    text-align: left;
+    margin-right: 0px;
+
+}
+
+.InfoContainer p {
+    padding-left: 20px;
+    filter: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.ArtistName {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.AlbumName {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.PlayButton {
+    opacity: 0%;
+    color: white;
+    margin-top: 80px;
+    width: 40px;
+    height: 40px;
+    transition: opacity 0.2s linear;
+}
+
+.ListItem:hover .PlayButton{
+    opacity: 100%;
+    transition: opacity 0.1s linear;
+}
+
+.PlayButton:hover{
+    color: rgb(199, 199, 199);
+    transition: color 0.1s linear;
+}
+
+.PlayButton:active{
+    color: rgb(255, 255, 255);
+
+}
+
+.Favourite{
+    opacity: 0%;
+    padding-left: 10px;
+    padding-top: 160px;
+    color:white;
+    float: right;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transition: padding-top 0.1s linear, opacity 0.1s linear;
+}
+
+.ListItem:hover .Favourite{
+    opacity: 100%;
+    padding-top: 135px;
+    transition: opacity 0.1s linear, padding-top 0.1s linear;
+}
+
+.Favourite:hover{
+    color: rgb(199, 199, 199);
+    transition: color 0.1s linear;
+}
+
+
+
+
+

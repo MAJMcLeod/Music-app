@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Test Snapshot for App.js Component 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Login"
+  >
+    <a
+      className="LoginLink"
+      href="https://accounts.spotify.com/authorize?client_id=1d0da610ffee473cadc359df2f1e06f8&response_type=code&redirect_uri=http://localhost:3000/&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
+    >
+      Login With Spotify
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Snapshot Test Snapshot for Body.js Component 1`] = `
+<div
+  className="Body"
+>
+  <div
+    className="BodyInner"
+  >
+    <div
+      className="SearchHolder"
+    >
+      <p
+        className="Title"
+      >
+        Music-App
+      </p>
+      <div
+        className="SearchContainer"
+      >
+        <div
+          className="SearchOptions"
+        >
+          <input
+            className="SearchBar"
+            onChange={[Function]}
+            placeholder="Search"
+          />
+          <div
+            className="SearchIconDiv"
+            onClick={[Function]}
+          >
+            <svg
+              className="Search"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FavouritesOuter"
+      >
+        <div
+          className="Favourites"
+        >
+          <div
+            className="FavSpacer"
+          >
+            <p
+              className="FavText"
+            >
+              Favourites
+            </p>
+          </div>
+          <div
+            className="FavouritesInner"
+          >
+            <div
+              className="FavContainer"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ListContainer"
+    >
+      <div
+        className="ListContainerOuter"
+      >
+        <div
+          className="ListContainerList"
+        >
+          <div
+            className="Spacer"
+          />
+          <div
+            className="Spacer2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Background"
+  >
+    <div
+      className="Pattern"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,85 @@
+.SearchHolder{
+    z-index: 4;
+    background-color: #190061; 
+    height: 115%;
+    width: 300px;
+    border-right: solid 1px white;
+
+}
+
+.SearchContainer {
+    background-color: #282828;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.616);
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+
+}
+
+.Search {
+    margin-top: 1px;
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+
+.SearchOptions {
+    width: 100%;
+    float: left;
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.SearchBar {
+    width: 68%;
+    margin-left: none;
+    float: left;
+    height: 19px;
+    background-color: #282828;
+
+}
+
+input,
+select,
+textarea {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.SearchIconDiv {
+    border: solid white 2px;
+    margin-right: 100px;
+    height: 21px;
+    width: 20%;
+    margin-left: 70%;
+}
+
+.SearchIconDiv:hover{
+    background-color: #1b1b1b ;
+}
+
+.SearchIconDiv:active{
+    background-color: #3f3f3f ;
+}
+
+.Title{
+    color:white;
+    margin: 0;
+    margin-top: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+ 
+ }
+
+ .SearchBar:focus{
+     background-color: #383838;
+ }
